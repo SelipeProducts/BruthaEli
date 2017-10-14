@@ -1,0 +1,302 @@
+html{
+	background-color: white;
+	color: black;
+	font-family:impact ; /*impact alternative font - TAHOMA, Arial Black*/
+}
+body{
+ margin: 0;
+}
+/*Vague Block Manipulation - code used for changing block in multiple areas of the page*/
+.readableText{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+.center { margin: 0 auto; width: 100%; }
+.textCenter{
+	text-align: center;
+}
+.marginCenter{
+	margin-right: auto;
+	margin-left: auto;
+}
+#marginCenter{
+	margin-right: auto;
+	margin-left: auto;
+}
+.maxWidth{
+	min-width: 100%;
+	max-width: 100%;
+}
+.fontSize15{
+	font-size: 2em;
+}
+.headingText{
+	font-family: impact;
+	font-size: 1.2em;
+}
+/*Vague Block Manipulation - END */
+/* Main Page */
+.mainWindow{
+	/*background: url(../image/et.jpg);*/
+	background: url(../image/eli_perform_crop.jpg);
+	background-size: 100% 100%;
+	max-width: 100%;
+	min-height: 100%;
+}
+div .header{
+	 background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dobo{
+	width: 100%;
+	padding-left: 5px;
+	color: white;
+}
+.text{
+	min-width: 100%;
+	min-height: 50%;
+}
+.textTitle{
+	font-size: 5em;
+	color: white;
+	text-shadow: 0px 0px grey;
+	letter-spacing: 3px;
+
+}
+.theTable{
+	min-width: 100%;
+	border: 0px solid white;
+}
+.theTable table td{
+	padding: 1 20px;
+	color: white;
+}
+.whitePadding{
+	border: 1px solid white;
+}
+
+.paddingDiv{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.readablefont{
+	 font-family: 'Oswald', sans-serif;
+	 font-weight: bold;
+}
+.aboutMe{
+	background-color: ;
+}
+/* Music tab*/
+.albumPic{
+	max-width: 100%;
+	max-height: 250px;
+	height: auto;
+}
+.albumPicChoice{
+	max-width: 500px;
+	height: auto;
+}
+.imageCollection{
+	max-width: 250px;
+	height: auto;
+}
+.floated_img
+{
+    float: left;
+}
+.imageBlock{
+	float: none;
+	overflow: hidden
+}
+/* Music tab end*/
+/*Hidden CSS*/
+.hidden {
+    display:none;
+}
+.visible{
+    display:block;
+}
+/*Hidden CSS end*/
+/*Pointer Hover - reation when hovering over contents aboutMe, Music, Etc.*/
+.pointerCover:hover{
+    /*background-color: white; #0073CF
+    border: 3px solid blue;
+    color: black;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: bold; */
+    cursor: pointer;
+		font-size: 1.1em;
+		font-weight: bold;
+}
+/*Pointer Hover - END*/
+/*Icons - css related to the social media icons*/
+.icon{
+	max-width: 50px;
+	max-height: 50px;
+	height: auto;
+	width: auto;
+}
+.icon_slight_L{
+	max-height: 40px;
+	max-height: 40px;
+	height: auto;
+	width: auto;
+
+}
+.icon_slight_L2{
+	max-height: 45px;
+	max-height: 45px;
+	height: auto;
+	width: auto;
+}
+.tableIcons{
+	margin-left: auto;
+}
+
+.facebook_icon{
+	background-image: url(../image/facebook_white.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	border: solid 0px white;
+	background-size: contain;
+}
+.facebook_icon:hover{
+	background-image: url(../image/facebook_blue.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	border: solid 0px white;
+	background-size: contain;
+}
+.instagram_icon{
+	background-image: url(../image/instagram_white.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	border: solid 0px white;
+	background-size: contain;
+}
+.instagram_icon:hover {
+	background-image: url(../image/instagram_purple.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	border: solid 0px white;
+	background-size: contain;
+}
+.twitter_icon{
+	background-image: url(../image/twitter_white.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	border: solid 0px white;
+	background-size: contain;
+}
+.twitter_icon:hover{
+	background-image: url(../image/twitter_blue.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	border: solid 0px white;
+	background-size: contain;
+}
+.youtube_icon{
+	background-image: url(../image/youtube_white.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	border: solid 0px white;
+	background-size: contain;
+}
+.youtube_icon:hover{
+	background-image: url(../image/youtube_red.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	border: solid 0px white;
+	background-size: contain;
+}
+.soundcloud_icon{
+	background-image: url(../image/soundcloud_white.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	border: solid 0px white;
+	background-size: contain;
+}
+.soundcloud_icon:hover{
+	background-image: url(../image/soundcloud_orange.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	border: solid 0px white;
+	background-size: contain;
+}
+.footer{
+	background-color: #e8e8e8;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.facebook_icon_footer{
+	background-image: url(../image/facebook.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	background-size: contain;
+}
+.instagram_icon_footer{
+	background-image: url(../image/instagram.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	background-size: contain;
+}
+.twitter_icon_footer{
+	background-image: url(../image/twitter.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	background-size: contain;
+}
+.youtube_icon_footer{
+	background-image: url(../image/youtube.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	background-size: contain;
+}
+.soundcloud_icon_footer{
+	background-image: url(../image/soundcloud.png);
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height:50px;
+	background-size: contain;
+}
+
+.bruthe_eli_icon{
+	width: 75px;
+	height: 75px;
+	max-width: 75px;
+	max-height:75px;
+}
+.icon_padding{
+	padding-right: 20px;
+}
+/* Icon END*/
